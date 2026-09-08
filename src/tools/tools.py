@@ -12,11 +12,13 @@ import re
 load_dotenv()
 
 tavily = TavilyClient(api_key= os.getenv("TAVILY_API_KEY"))
+
 @tool
-def web_search(query:str)->str:
+def web_search(query: str) -> str:
+    """Searches the web for the given query and returns top results with titles, URLs, and snippets."""
     results = tavily.search(query=query, max_results=5)
 
-    out= []
+    out = []
 
     for r in results['results']:
         out.append(

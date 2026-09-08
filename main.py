@@ -1,8 +1,5 @@
-from src.tools.tools import web_search , scrape_url
+from src.pipelines.pipeline import research_pipeline
 
-# output = web_search("Capital of kazakistan")
+topic = "The impact of the iran war on the economy of the world"
 
-# print(output)
-
-result = scrape_url.invoke("https://en.wikipedia.org/wiki/Kazakhstan")
-print(result)
+research_pipeline(topic)
