@@ -4,7 +4,7 @@ langchain-community>=0.2.0
 streamlit>=1.0.0
 
 tavily-python>=0.3.0
-
+langchain_google_genai
 beautifulsoup4>=4.13.0
 readability-lxml 
 trafilatura 
@@ -12,4 +12,5 @@ requests>=2.31.0
 lxml>=5.0.0
 rich
 
-python-dotenv>=1.0.0
+python-dotenv>=1.0.
+
