@@ -12,7 +12,7 @@ GEMINI_API_KEY=os.getenv("GEMINI_API_KEY")
 
 
 llm = ChatGoogleGenerativeAI(
-    model="gemini-3.5-flash",
+    model="gemini-3.5-flash-lite",
     google_api_key=GEMINI_API_KEY
 )
 

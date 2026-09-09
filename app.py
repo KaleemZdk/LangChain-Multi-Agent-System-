@@ -4,7 +4,7 @@ from src.agents.agents import build_search_agent, build_reader_agent,writer_chai
 
 st.set_page_config(page_title="AI Research Assistant", page_icon="🔍")
 
-st.title("🔍 AI Research Assistant")
+st.title("🔍 Boobies Research Assistant")
 st.write("Enter a topic and let the multi-agent system research, write, and critique a report.")
 
 topic = st.text_input("Research Topic", placeholder="e.g. Latest trends in renewable energy")
